@@ -1,6 +1,10 @@
 
 # Risk Management – Expected Exposure, PFE & VaR
 
+
+https://github.com/user-attachments/assets/001ee3d0-3d55-44b5-9919-995d20017a63
+
+
 ## Overview  
 A unified framework for counterparty credit and market risk:  
 - **Expected Exposure (EE)**  
