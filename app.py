@@ -177,7 +177,8 @@ def HW_SwapPrice(CP, notional, K, t, Ti, Tm, n, r_t, P0T, lambd, eta):
         swap = K * temp - (P_t_Ti - P_t_Tm)
 
     return swap * notional
-st.title('Risk Management -Expected Exposure ,Potential Future Exposure and Value at Risk (VaR) using Monte Carlo Simulation, Historical Var,Expected Shortfall')
+st.title('Risk Management ')
+st.subheader('Expected Exposure ,Potential Future Exposure and Value at Risk (VaR) using Monte Carlo Simulation, Historical Var,Expected Shortfall')
 st.write('This app calculates Expected Exposure, Potential Future Exposure and Value at Risk (VaR) using Monte Carlo Simulation, Historical Var,Expected Shortfall for a given set of parameters.')
 
 Risk_method =st.radio('Select the Risk Measure :', ('Expected Exposure ','Monte Carlo Simulation Var', 'Historical VaR'))
